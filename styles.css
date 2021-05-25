@@ -1,4 +1,91 @@
-.hero-image{
+body{
+  overflow: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#body-section{
+  background-image: url(images/bg-pattern-desktop.svg);
+  padding-top: 4%;
+  padding-right: 10%;
+  padding-left: 12.5%;
+}
+
+#image-section{
   height: 100vh;
-  float: right;
+  background-image: url(images/hero-desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#main-text{
+  padding-top: 20%;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+h2{
+  text-transform: uppercase;
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+  font-size: 60px;
+  letter-spacing: 15px;
+  line-height: 55px;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(0, 6%, 24%);
+  font-size: 60px;
+  letter-spacing: 15px;
+  line-height: 55px;
+}
+
+p{
+  color: hsl(0, 36%, 70%);
+  text-align: justify;
+  padding-top: 7%;
+  padding-right: 20%;
+}
+
+.email-address{
+  padding-top: 7%;
+  position: relative;
+}
+
+input{
+  position: absolute;
+  padding: 2.5%;
+  border-radius: 25px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #DACBCE;
+  color: #DACBCE;
+  width: 80%;
+}
+
+button{
+  z-index: 10;
+  position: absolute;
+  left: 65%;
+  padding: 2.7%;
+  width: 19%;
+  border-radius: 25px;
+  border-width: 0;
+  background-image: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 18px 0px;
+}
+
+button:hover{
+  animation-duration: 500ms;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+::placeholder{
+  color: #DACBCE;
 }

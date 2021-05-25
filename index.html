@@ -8,13 +8,15 @@
 
   <title>Base Apparel</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <div class="container-fluid">
     <div class="row">
-      <section class="col-lg-7 col-sm-12">
+      <div class="col-lg-7 col-sm-12" id="body-section">
         <!-- Logo -->
           <h1>
             <img src="images/logo.svg" alt="">
@@ -22,26 +24,27 @@
         <!-- Logo -->
 
         <!-- Body -->
-        <h2>We're coming soon</h2>
+        <div id="main-text">
+          <h2>We're </h2>
+          <h3>coming</h3>
+          <h3>soon</h3>
+        </div>
 
         <p>Hello fellow shoppers! We're currently building our new fashion store.
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
         <!-- Body -->
 
         <!-- Email Address Input -->
-        <input type="email" placeholder="Email Address">
-        <button type="button" name="button">
-          <a href="images/icon-arrow.svg"></a>
-        </button>
+        <div class="email-address">
+          <input type="email" placeholder="Email Address">
+          <button type="button" name="button">
+            <img src="images/icon-arrow.svg" alt="">
+          </button>
+        </div>
         <!-- Email Address Input -->
-      </section>
+      </div>
 
-      <d class="col-lg-5 col-sm-12">
-        <!-- Image -->
-        <img src="images/hero-desktop.jpg" alt="Lady's Image" class="hero-image">
-        <!-- Image -->
-      </section>
-    </div>
+      <div class="col-lg-5 col-sm-12" id = "image-section"></div>
   </div>
 
 
